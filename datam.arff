@@ -1,0 +1,14 @@
+@relation denemedata
+
+@attribute 'veysel' { t }
+@attribute 'yagmur' { t }
+@attribute 'caner' { t }
+@attribute 'ibrahim' { t }
+@attribute 'highlow'{low,high}
+@attribute 'rakam'{4,7,8,9,10}
+@data
+?,t,?,t,low,4
+?,?,t,?,high,7
+?,?,?,t,low,8
+?,t,?,?,high,9
+t,?,?,?,high,10
